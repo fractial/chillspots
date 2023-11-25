@@ -1,0 +1,20 @@
+{
+  "name": "Leaflet.OpenCage.Geocoding",
+  "version": "1.4.2",
+  "homepage": "https://opencagedata.com",
+  "authors": ["support@opencagedata.com"],
+  "description": "A Leaflet geocoding control that uses OpenCage Data's geocoder",
+  "main": "dist/js/L.Control.OpenCageGeocoding.min.js",
+  "keywords": [
+    "leaflet",
+    "plugin",
+    "geocoding",
+    "geocoder",
+    "search",
+    "map",
+    "opencage",
+    "opencagedata"
+  ],
+  "license": "BSD",
+  "ignore": ["**/.*", "node_modules", "bower_components", "test", "tests"]
+}

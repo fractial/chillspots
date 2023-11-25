@@ -1,0 +1,43 @@
+{
+  "name": "@opencage/leaflet-opencage-geocoding",
+  "version": "2.0.0",
+  "description": "Leaflet plugin for geocoding via the OpenCage Geocoder API",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:opencagedata/leaflet-opencage-geocoding.git"
+  },
+  "homepage": "https://opencagedata.com",
+  "author": {
+    "name": "OpenCage GmbH",
+    "email": "support@opencagedata.com",
+    "url": "https://opencagedata.com"
+  },
+  "license": "BSD",
+  "keywords": [
+    "leaflet",
+    "plugin",
+    "geocoding",
+    "search",
+    "map",
+    "opencagedata"
+  ],
+  "scripts": {
+    "build": "grunt",
+    "clean": "grunt clean"
+  },
+  "dependencies": {
+    "leaflet": "*"
+  },
+  "devDependencies": {
+    "grunt": "^1.0",
+    "grunt-cli": "~1.4",
+    "grunt-contrib-clean": "^2.0",
+    "grunt-contrib-concat": "^1.0",
+    "grunt-contrib-copy": "^1.0",
+    "grunt-contrib-cssmin": "^4.0",
+    "grunt-contrib-jshint": "^3.0",
+    "grunt-contrib-uglify": "^5.0",
+    "grunt-contrib-watch": "^1.1",
+    "minimist": "^1.2.2"
+  }
+}

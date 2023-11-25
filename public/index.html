@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chillspots</title>
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <script src="leaflet/leaflet.js"></script>
+    <script src="leaflet-opencage-geocoding-2.0.0/dist/js/L.Control.OpenCageGeocoding.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="map"></div>
+    <div class="nav">
+        <div id="logo"><a href="chillspots.net"><img src="assets/logo.svg" alt="Chillspots"></a></div>
+        <div id="search"></div>
+        </div>
+    </div>
+    <div class="form-container">
+        <button id="add">+</button>
+        <div class="form-container-2">
+            <form id="form" enctype="multipart/form-data" action="/submit" method="post">
+                <p class="add-head">Add your Chillspot</p>
+                <input type="text" name="name" id="" placeholder="Name">
+                <input type="text" name="desc" id="" placeholder="Description">
+                <input type="file" name="file" id="">
+                <input type="hidden" id="lat" name="lat", value="">
+                <input type="hidden" id="lng" name="lng", value="">
+                <button type="button" onclick="submitForm()">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div id="donate"><a href="https://www.paypal.com/donate/?hosted_button_id=CHWFPXRWRZF7Q">Donate</a></div>
+</body>
+</html>
