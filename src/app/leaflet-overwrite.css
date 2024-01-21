@@ -1,0 +1,35 @@
+.leaflet-bar-part {
+  display: none !important;
+}
+
+.leaflet-top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.geosearch {
+  border: none !important;
+  width: fit-content;
+  height: fit-content;
+  margin: 0 !important;
+  margin-top: 1rem !important;
+  padding: 0 !important;
+}
+
+.geosearch > form {
+  width: fit-content;
+  height: fit-content;
+}
+
+.geosearch > form > *:not(input) {
+  display: none !important;
+}
+
+.geosearch > form > input {
+  all: unset;
+  @apply rounded-md w-full bg-red-500;
+  height: 1rem;
+  padding: 1rem;
+}
